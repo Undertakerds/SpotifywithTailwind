@@ -12,7 +12,7 @@
 <body class="bg-neutral-900 text-white">
 
   <header class="bg-black text-sm font-medium">
-    <div class="flex justify-between items-center px-8 py-4">
+    <div class="flex justify-between items-center px-[420px] py-5">
       <div class="flex items-center space-x-2">
         <img src="public/Spotify_Full_Logo_RGB_White.png" alt="Spotify" class="h-6" />
       </div>
@@ -27,14 +27,31 @@
     </div>
   </header>
   <!-- Hero Section -->
-  <section class="py-12 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-rose-200 to-neutral-900">
-    <div class="max-w-7xl mx-auto text-center">
-      <h1 class="text-4xl font-bold mb-6">Experience the difference</h1>
-      <p class="text-xl mb-8">Go Premium and enjoy full control of your listening. Cancel anytime.</p>
-      <h2 class="text-2xl font-semibold mb-6">Affordable plans for any situation</h2>
-      <p class="text-lg mb-12">Choose a Premium plan and listen to ad-free music without limits on your phone, speaker,
-        and other devices. Pay in various ways. Cancel anytime.</p>
-    </div>
+
+  <section class="relative flex items-start min-h-[380px] bg-gradient-to-b from-rose-200/80 to-neutral-900/0">
+    <div class="container mx-auto px-60 pt-20 flex">
+      <div class="max-w-3xl z-10 relative">
+        <h1 class="text-5xl font-extrabold mb-6 leading-tight">
+          Listen without limits. Try 1<br />
+          month of Premium<br />
+          Individual for DKK 0.
+        </h1>
+        <p class="text-lg mb-4 font-medium">
+          Only DKK 109/month after. Cancel anytime.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 mb-4">
+          <button
+            class="bg-rose-200 text-black font-bold py-3 px-8 rounded-full hover:scale-105 transition w-full sm:w-auto">Get
+            started</button>
+          <button
+            class=" bg-black text-white border border-white font-bold py-3 px-8 rounded-full hover:scale-105 hover:bg-white hover:text-black transition w-full sm:w-auto">View
+            all plans</button>
+        </div>
+        <p class="text-xs text-gray-400 max-w-md">
+          DKK 0 for 1 month, then DKK 109 per month after. Offer only available if you haven’t tried Premium before.
+          <a href="#" class="underline underline-offset-4">Terms apply.</a>
+        </p>
+
   </section>
 
   <!-- Features Section -->
