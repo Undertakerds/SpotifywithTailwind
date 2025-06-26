@@ -11,8 +11,20 @@
 
 <body class="bg-neutral-900 text-white">
 
-  <header>
-
+  <header class="bg-black text-sm font-medium">
+    <div class="flex justify-between items-center px-8 py-4">
+      <div class="flex items-center space-x-2">
+        <img src="public/Spotify_Full_Logo_RGB_White.png" alt="Spotify" class="h-6" />
+      </div>
+      <nav class="flex items-center space-x-6">
+        <a href="#" class="hover:underline">Premium</a>
+        <a href="#" class="hover:underline">Support</a>
+        <a href="#" class="hover:underline">Download</a>
+        <div class="w-px h-4 bg-white opacity-30"></div>
+        <a href="#" class="hover:underline">Sign up</a>
+        <a href="#" class="hover:underline">Log in</a>
+      </nav>
+    </div>
   </header>
   <!-- Hero Section -->
   <section class="py-12 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-rose-200 to-neutral-900">
@@ -53,111 +65,95 @@
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         <!-- Individual Plan -->
-        <div class="bg-black p-6 rounded-lg border border-gray-700">
-          <div class="bg-green-600 text-black text-sm font-bold px-3 py-1 rounded-full inline-block mb-4">1 MONTH FREE
+        <div class="bg-neutral-800 rounded-xl p-6 shadow-lg border border-neutral-800 max-w-xs mx-auto">
+          <div class="flex items-center mb-3">
+            <img src="public/Spotify_Primary_Logo_RGB_White.png" alt="Spotify" class="h-6 w-6 mr-2">
+            <span class="font-semibold text-sm">Premium</span>
           </div>
-          <h3 class="text-xl font-bold mb-2">Premium Individual</h3>
-          <p class="text-gray-300 mb-4">$11.99/month after</p>
-          <p class="text-sm text-gray-400 mb-6">Offer only available if you haven't tried Premium before. Terms apply.
-          </p>
-          <ul class="space-y-3 mb-8">
-            <li class="flex items-start">
-              <span class="checkmark mr-2">✓</span>
-              <span>1 Premium account</span>
-            </li>
-            <li class="flex items-start">
-              <span class="checkmark mr-2">✓</span>
-              <span>Cancel anytime</span>
-            </li>
-            <li class="flex items-start">
-              <span class="checkmark mr-2">✓</span>
-              <span>15 hours/month of audiobooks</span>
-            </li>
+          <h2 class="text-3xl font-bold text-rose-200 mb-1">Individual</h2>
+          <p class="text-base font-bold text-white">Try 1 month for DKK 0</p>
+          <p class="text-sm font-bold text-gray-400 mb-2">DKK 109/month after</p>
+          <hr class="border-neutral-700 mb-4">
+          <ul class="space-y-2 text-base text-white mb-6 list-disc list-inside">
+            <li> 1 Premium account</li>
+            <li>Cancel anytime</li>
           </ul>
-          <button class="w-full bg-white text-black font-bold py-3 px-4 rounded-full hover:bg-gray-200 transition">Get
-            Started</button>
-          <p class="text-xs text-gray-500 mt-4"><a href="#" class="underline">Terms and conditions apply</a>. 1 month
-            free not available for users who have already tried Premium.</p>
+          <button
+            class="mt-20 w-full bg-rose-200 text-black font-bold py-3 rounded-full mb-4 transform hover:scale-105 duration-200">Try
+            1 month for DKK 0&nbsp;</button>
+          <p class="text-xs text-gray-400 text-center">DKK 0 for 1 month, then DKK 109 per month after. Offer only
+            available if you haven’t tried Premium before..<br>
+            <a href="#" class="underline">Terms apply.</a>
+          </p>
         </div>
 
         <!-- Student Plan -->
-        <div class="bg-black p-6 rounded-lg border border-gray-700">
-          <div class="bg-green-600 text-black text-sm font-bold px-3 py-1 rounded-full inline-block mb-4">1 MONTH FREE
+        <div class="bg-neutral-800 rounded-xl p-6 shadow-lg border border-neutral-800 max-w-xs mx-auto">
+          <div class="flex items-center mb-3">
+            <img src="public/Spotify_Primary_Logo_RGB_White.png" alt="Spotify" class="h-6 w-6 mr-2">
+            <span class="font-semibold text-sm">Premium</span>
           </div>
-          <h3 class="text-xl font-bold mb-2">Premium Student</h3>
-          <p class="text-gray-300 mb-4">$5.99/month after</p>
-          <p class="text-sm text-gray-400 mb-6">Offer currently includes access to Hulu (With Ads) plan. Offer available
-            only to students.</p>
-          <ul class="space-y-3 mb-8">
-            <li class="flex items-start">
-              <span class="checkmark mr-2">✓</span>
-              <span>1 verified Premium account</span>
-            </li>
-            <li class="flex items-start">
-              <span class="checkmark mr-2">✓</span>
-              <span>Discount for eligible students</span>
-            </li>
-            <li class="flex items-start">
-              <span class="checkmark mr-2">✓</span>
-              <span>Access to Hulu</span>
-            </li>
+          <h2 class="text-3xl font-bold text-purple-300 mb-1">Student</h2>
+          <p class="text-base font-bold text-white">DKK 0 for 1 month</p>
+          <p class="text-sm font-bold text-gray-400 mb-2">DKK 59/month after</p>
+          <hr class="border-neutral-700 mb-4">
+          <ul class="space-y-2 text-base text-white mb-6 list-disc list-inside">
+            <li>1 verified Premium account</li>
+            <li>Discount for eligible students</li>
+            <li>Cancel anytime</li>
           </ul>
-          <button class="w-full bg-white text-black font-bold py-3 px-4 rounded-full hover:bg-gray-200 transition">Get
-            Started</button>
-          <p class="text-xs text-gray-500 mt-4"><a href="#" class="underline">Terms and conditions apply</a>. Hulu
-            eligibility required.</p>
+          <button
+            class="mt-12 w-full bg-purple-300 text-black font-bold py-3 rounded-full mb-4 transform hover:scale-105 duration-200">
+            Try 1 month for DKK 0&nbsp;</button>
+          <p class="text-xs text-gray-400 text-center">DKK 0 for 1 month, then DKK 59 per month after. Offer available
+            only to students at an accredited higher education institution and if you haven’t tried Premium before.<br>
+            <a href="#" class="underline">Terms apply.</a>
+          </p>
         </div>
 
         <!-- Duo Plan -->
-        <div class="bg-black p-6 rounded-lg border border-gray-700">
-          <h3 class="text-xl font-bold mb-2">Premium Duo</h3>
-          <p class="text-gray-300 mb-4">$16.99/month</p>
-          <p class="text-sm text-gray-400 mb-6">For couples who reside at the same address.</p>
-          <ul class="space-y-3 mb-8">
-            <li class="flex items-start">
-              <span class="checkmark mr-2">✓</span>
-              <span>2 Premium accounts</span>
-            </li>
-            <li class="flex items-start">
-              <span class="checkmark mr-2">✓</span>
-              <span>Cancel anytime</span>
-            </li>
-            <li class="flex items-start">
-              <span class="checkmark mr-2">✓</span>
-              <span>15 hours/month of audiobooks (plan manager only)</span>
-            </li>
+        <div class="bg-neutral-800 rounded-xl p-6 shadow-lg b
+             order border-neutral-800 max-w-xs mx-auto">
+          <div class="flex items-center mb-3">
+            <img src="public/Spotify_Primary_Logo_RGB_White.png" alt="Spotify" class="h-6 w-6 mr-2">
+            <span class="font-semibold text-sm">Premium</span>
+          </div>
+          <h2 class="text-3xl font-bold text-amber-400 mb-1">Duo</h2>
+          <p class="text-base font-bold text-white mb-2">DKK 149 / month</p>
+          <hr class="border-neutral-700 mt-7 mb-4">
+          <ul class="space-y-2 text-base text-white mb-10 list-disc list-inside">
+            <li>2 Premium accounts</li>
+            <li>Cancel anytime</li>
           </ul>
           <button
-            class="w-full bg-green-600 text-black font-bold py-3 px-4 rounded-full hover:bg-green-500 transition">Get
-            Premium Duo</button>
-          <p class="text-xs text-gray-500 mt-4"><a href="#" class="underline">Terms and conditions apply</a>. Both users
-            must reside at the same address.</p>
+            class="mt-16 w-full bg-amber-400 text-black font-bold py-3 rounded-full mb-4 transform hover:scale-105 duration-200">
+            Get Premium Duo&nbsp;</button>
+          <p class="text-xs text-gray-400 text-center">For couples who reside at the same address.<br>
+            <a href="#" class="underline">Terms apply.</a>
+          </p>
         </div>
 
         <!-- Family Plan -->
-        <div class="bg-black p-6 rounded-lg border border-gray-700">
-          <h3 class="text-xl font-bold mb-2">Premium Family</h3>
-          <p class="text-gray-300 mb-4">$19.99/month</p>
-          <p class="text-sm text-gray-400 mb-6">For up to 6 family members residing at the same address.</p>
-          <ul class="space-y-3 mb-8">
-            <li class="flex items-start">
-              <span class="checkmark mr-2">✓</span>
-              <span>Up to 6 Premium or Kids accounts</span>
-            </li>
-            <li class="flex items-start">
-              <span class="checkmark mr-2">✓</span>
-              <span>Control explicit content</span>
-            </li>
-            <li class="flex items-start">
-              <span class="checkmark mr-2">✓</span>
-              <span>Access to Spotify Kids</span>
-            </li>
+        <div class="bg-neutral-800 rounded-xl p-6 shadow-lg border border-neutral-800 max-w-xs mx-auto">
+          <div class="flex items-center mb-3">
+            <img src="public/Spotify_Primary_Logo_RGB_White.png" alt="Spotify" class="h-6 w-6 mr-2">
+            <span class="font-semibold text-sm">Premium</span>
+          </div>
+          <h2 class="text-3xl font-bold text-blue-200 mb-1">Family</h2>
+          <p class="text-base font-bold text-white mb-2">DKK 179 / month</p>
+          <hr class="border-neutral-700 mt-7 mb-4">
+          <ul class="space-y-2 text-base text-white mb-6 list-disc list-inside">
+            <li>Up to 6 Premium or Kids accounts</li>
+            <li>Control content marked as explicit</li>
+            <li>Access to Spotify Kids</li>
+            <li>Cancel anytime</li>
           </ul>
           <button
-            class="w-full bg-green-600 text-black font-bold py-3 px-4 rounded-full hover:bg-green-500 transition">Get
-            Premium Family</button>
-          <p class="text-xs text-gray-500 mt-4"><a href="#" class="underline">Terms and conditions apply</a>. All
-            members must reside at the same address.</p>
+            class="w-full bg-blue-200 text-black font-bold py-3 rounded-full mb-4 transform hover:scale-105 duration-200">
+            Get Premium Family&nbsp;</button>
+          <p class="text-xs text-gray-400 text-center">For up to 6 family members residing at the same address.<br>
+            <a href="#" class="underline">Terms apply.</a>
+          </p>
         </div>
       </div>
     </div>
